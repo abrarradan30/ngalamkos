@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Form Isi Data Pemilik Kos</title>
+
+  <!-- form style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/form-pemilik-kos.css">
+
+</head>
+
+<body>
+  <div class="form_holder">
+    <br><br>
+    <!-- <h2 class="fs-title" style="color:#fff;">steps jquery form with Icons</h2> -->
+    <form id="msform">
+      <fieldset>
+        <h2 class="fs-title">Data Pemilik Kos</h2>
+        <br>
+        <label>Nama</label>
+        <input type="text" name="nama" placeholder="Masukkan Nama" />
+        <label>Jenis Kelamin</label>
+        <div class="radio-button">
+          <p>
+            <input type="radio" name="jk" value="l">Laki-laki
+          </p>
+          &emsp;&emsp;
+          <p>
+            <input type="radio" name="jk" value="p">Perempuan
+          </p>
+        </div>
+        <label>Alamat</label>
+        <textarea name="alamat" placeholder="Masukkan Alamat"></textarea>
+        <label>Nomor Telepon</label>
+        <input type="text" name="telepon" placeholder="Masukkan Nomor Telepon Aktif" />
+        <input type="submit" name="submit" class="submit action-button" value="Submit" />
+      </fieldset>
+    </form>
+  </div>
+
+  <!-- js form pemilik kos -->
+  <script src="assets/js/form-pemilik-kos.js"></script>
+  
+</body>
+
+</html>
