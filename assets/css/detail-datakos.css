@@ -2,11 +2,11 @@
 
 body{
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-    background: none repeat scroll 0 0 #0D4C92;
+    background: none repeat scroll 0 0 #f3f3f3;
 }
 .port-image{
-    width:400px;
-    height:400px;
+    width:100px;
+    height:100px;
 }
 
 .media {
